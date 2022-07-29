@@ -11,18 +11,21 @@
 # 4. The larger disc cannot be placed on top of a smaller disk.
 
 
-def Hanoi(n, tower_b, tower_d, tower_m):
+def Hanoi(n, tower_b, tower_e, tower_m):
     if n == 1:
-        print("Move disk 1 from tower", tower_b, "to tower" , tower_d)
+        print("Move disk 1 from tower", tower_b, "to tower" , tower_e)
+        return
+    Hanoi(n-1, tower_b, tower_m, tower_e)
+    print("Move disc ", n , "from tower", tower_b, "to tower", tower_e)
+    Hanoi(n-1, tower_m, tower_e, tower_b)
+    
+n = 3
+Hanoi(n, 'A', 'C', 'B')
+# name of towers = A, C, B
+
+    
         
         
-        
-        
-    
-    
-    
-    
-    
 # n = total number of disks
 # tower_b = begining tower (source or start)
 # tower_e + end tower (destination or stop)
