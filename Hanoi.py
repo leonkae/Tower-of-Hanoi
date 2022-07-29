@@ -5,10 +5,10 @@
     # -3 disks.
     # -3 towers.
 
-# 1. Only one disc can be moved at any given time.
-# 2. Only the top most disc can be moved at any given time.
-# 3. Disc must be placed in ascending order where discs are placed from the largest to the smallest with the largest sitting a the very bottom and the smallest at the top.
-# 4. The larger disc cannot be placed on top of a smaller disk.
+# 1. Only one disk can be moved at any given time.
+# 2. Only the top most disk can be moved at any given time.
+# 3. Disk must be placed in ascending order where disk are placed from the largest to the smallest with the largest sitting a the very bottom and the smallest at the top.
+# 4. The larger disk cannot be placed on top of a smaller disk.
 
 
 def Hanoi(n, tower_b, tower_e, tower_m):
