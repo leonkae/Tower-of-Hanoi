@@ -16,7 +16,7 @@ def Hanoi(n, tower_b, tower_e, tower_m):
         print("Move disk 1 from tower", tower_b, "to tower" , tower_e)
         return
     Hanoi(n-1, tower_b, tower_m, tower_e)
-    print("Move disc ", n , "from tower", tower_b, "to tower", tower_e)
+    print("Move disk ", n , "from tower", tower_b, "to tower", tower_e)
     Hanoi(n-1, tower_m, tower_e, tower_b)
     
 n = 3
