@@ -1,4 +1,4 @@
-# TOWER OF HANOI PROBLEM/PUZZLE
+# TOWER OF HANOI PROBLEM / PUZZLE
     
 # Output
   * Move disk 1 from tower A to tower C
